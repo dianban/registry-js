@@ -7,7 +7,7 @@
 ## Setup
 
 ```shellsession
-$ git clone https://github.com/desktop/registry-js
+$ git clone https://git.woa.com/siyuuhu/registry-js
 $ cd registry-js
 $ yarn
 ```

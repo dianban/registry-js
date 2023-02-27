@@ -22,15 +22,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/desktop/registry-js.git"
+    "url": "git+https://git.woa.com/siyuuhu/registry-js.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/desktop/registry-js/issues"
+    "url": "https://git.woa.com/siyuuhu/registry-js/issues"
   },
-  "homepage": "https://github.com/desktop/registry-js#readme",
+  "homepage": "https://git.woa.com/siyuuhu/registry-js#readme",
   "devDependencies": {
     "@types/benchmark": "^1.0.31",
     "@types/jest": "^26.0.13",
