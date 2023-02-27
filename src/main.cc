@@ -139,6 +139,10 @@ Napi::Array EnumerateValues(Napi::Env& env, HKEY hCurrentKey) {
         assert(cbData == sizeof(DWORD));
         results.Set(i, CreateEntry(env, achValue, L"REG_DWORD", *reinterpret_cast<DWORD*>(buffer.get())));
       }
+      else if (lpType == REG_BINARY)
+      {
+        results.Set(i, CreateEntry(env, achValue, L"REG_BINARY", 1));
+      }
     }
     else if (retCode == ERROR_NO_MORE_ITEMS)
     {
